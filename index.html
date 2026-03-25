@@ -231,7 +231,7 @@
         <div class="btn-group">
             <button class="btn btn-retry" onclick="initGame()">もう一度別の猫を愛でる</button>
             <a href="https://unknownthedeltia.github.io/Metalepsis_/" target="_blank" class="btn btn-author">元凶を調べる（作者サイト）</a>
-            <a id="share-link" href="#" target="_blank" class="btn btn-share">Xで猫派のフォロワーに謝罪する</a>
+            <a id="share-link" href="https://unknownthedeltia.github.io/rotatecat" target="_blank" class="btn btn-share">Xで猫派のフォロワーに謝罪する</a>
         </div>
     </div>
 
@@ -433,7 +433,7 @@
             rankTextDisplay.style.borderColor = borderColor;
 
             // X シェアリンク構築
-            const shareText = encodeURIComponent(`私は猫を触った結果、${finalTimeSec}秒で爆破させてしまいました。${rank} キミも猫を回転させてみよう→test.com/rotatecat #rotatecatchallenge`);
+            const shareText = encodeURIComponent(`私は猫を触った結果、${finalTimeSec}秒で爆破させてしまいました。${rank} キミも猫を回転させてみよう→https://unknownthedeltia.github.io/rotatecat #rotatecatchallenge`);
             shareLink.href = `https://twitter.com/intent/tweet?text=${shareText}`;
 
             // 悲しみのBGM
